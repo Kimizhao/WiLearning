@@ -61,6 +61,7 @@ export class I18nService {
     setLogoUrl: 'Set Logo Url(http or https)',
     announcementInput: 'Please input announcement',
     videoFilter: 'Video Filter',
+    videoConferenceAdmin: 'Video conference Admin',
   };
 
   public cn = {
@@ -106,6 +107,7 @@ export class I18nService {
     setLogoUrl: '设置Logo路径(http或https)',
     announcementInput: '请输入系统公告',
     videoFilter: '视频滤镜',
+    videoConferenceAdmin: '视频会议系统后台',
   };
 
   public lang = this.cn;

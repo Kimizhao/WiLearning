@@ -15,15 +15,15 @@
 import { environment } from '../environments/environment';
 
 export const MediaServer = {
-  address: 'rtc.liweix.com',
+  address: '172.22.176.1'
 };
 
 export const AdminServer = {
-  address: 'rtc.liweix.com',
+  address: '172.22.176.1'
 };
 
 export const DocServer = {
-  address: 'rtc.liweix.com'
+  address: '172.22.176.1'
 };
 
 export const RequestConnectVideoTimeout = 60;
@@ -35,7 +35,7 @@ export const DocImagesUrl = `https://${DocServer.address}/docs/images`;
 export const videoConstrain = {
   frameRate: {
     ideal: 18,
-    max:  25,
+    max: 25,
     min: 12
   },
 };
